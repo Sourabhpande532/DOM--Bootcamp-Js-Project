@@ -1,8 +1,4 @@
-# DOM--Bootcamp-Js-Project
-
-<!-- @format -->
-
-# Dom Manipulation Assignment
+ ## 🛑 **DOM--Bootcamp-Js-Project** 🛑
 
 1. Webiste Name: [Dev To](https://dev.to/)
 
