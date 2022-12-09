@@ -35,7 +35,16 @@
 ### Fetch all the product name and store in an array
 
 ###
-
+```
+const listNsmr = document.querySelectorAll(".as-imagegrid-item");
+//console.log(listNsmr)
+const storeValHouse =  [];
+listNsmr.forEach((item)=>{
+let x = item.innerText.replace("\nSupport", "");
+storeValHouse.push(x);
+})
+console.log(storeValHouse)
+```
 ### Output
 
 ![](./Images/Screenshot%202022-09-25%20094142.png)
@@ -142,21 +151,16 @@ document.querySelector(".diwali-deals-product-sale-btn").innerText="Check Out";
 
 ### Code
 
-```
-
       const find = document.querySelector(".searchinput___19uW0")
       find.addEventListener("mouseover", changbg)
       function changbg(){
       find.style.backgroundColor = "red"
       };
-    
-      /*or*/ 
 
-      document.querySelector(".searchinput___zXLAR").addEventListener("mouseover", function() {
-      document.querySelector(".searchinput___zXLAR").style.   backgroundColor = "red";
-});
-
-```
+      /*or*/
+                 document.querySelector(".searchinput___zXLAR").addEventListener("mouseover", function() {
+     document.querySelector(".searchinput___zXLAR").style.   backgroundColor = "red";
+     });
 
 ### Output
 
@@ -206,7 +210,84 @@ document.querySelector(".diwali-deals-product-sale-btn").innerText="Check Out";
 
 ![Output](./Assets/Pic15.png)
 
-9. Webiste Name: [Github](https://github.com/new)
+9. Webiste Name: [Code Wars](https://www.codewars.com/)
+
+### Topics
+
+       Change Font Family, Color of Text.
+
+### Sample Image
+
+![Sample One](./Assets/Pic16.png)
+
+### Tasks
+
+    Change the font family of the text to monospace and text color to the logo’s background color.
+
+### Code
+
+```
+document.querySelector(".text-align-center").style.fontFamily="monospace";
+
+document.querySelector(".text-align-center").style.fontFamily="orange";
+```
+
+### Output
+
+![Output](./Images/Screenshot%202022-12-09%20184958.png)
+
+10. Webiste Name: [Freecodecamp](https://www.freecodecamp.org/)
+
+### Topics
+
+       querySelector, mouseover, click eventListener,  callback function, style
+
+### Sample Image
+
+![Sample One](./Assets/Pic18.png)
+
+### Tasks
+
+    Target the button and change background colour on mouseover
+
+### Code
+
+      document.querySelector(".btn-cta-big .login-btn-text ").addEventListener("mouseover",function(){
+
+      document.querySelector(".btn-cta-big .login-btn-text ").style.backgroundColor="red"
+
+});
+
+### Output
+
+![Output](./Assets/Pic19.png)
+
+11. Webiste Name: [realme](https://www.realme.com/in/)
+
+### Topics
+
+       querySelector,style,background-image
+
+### Sample Image
+
+![Sample One](./Assets/Pic20.png)
+
+### Tasks
+
+    change the realme logo to ineuron logo
+
+### Code
+
+```
+document.querySelector(".gtag .icon").style.backgroundImage="url('https://ineuron.ai/images/ineuron-logo.png')"
+
+```
+
+### Output
+
+![Output](./Images/Screenshot%202022-12-09%20190849.png)
+
+12. Webiste Name: [Github](https://github.com/new)
 
 ### Topics
 
@@ -328,6 +409,31 @@ Target the top description and change “Matching developers with great companie
 
 ### Sample Image
 
+![Sample One](./Assets/Pic33.png)
+
+### Tasks
+
+     change the button text To current Date.
+
+### Code
+
+```
+document.querySelector(".btn-container").innerHTML=new Date()
+
+```
+
+### Output
+
+![Output](./Assets/Pic32.png)
+
+18. Webiste Name: [Philips](https://www.philips.co.in/)
+
+### Topics
+
+     querySelector,style,backgroundcolor
+
+### Sample Image
+
 ![Sample One](./Assets/Pic34.png)
 
 ### Tasks
@@ -336,7 +442,10 @@ Target the top description and change “Matching developers with great companie
 
 ### Code
 
-     document.querySelector('.p-footer').style.backgroundColor = "Orange"
+```
+document.querySelector(".p-f03-footer-container .p-footer").style.backgroundColor="orange"
+
+```
 
 ### Output
 
@@ -358,7 +467,9 @@ Target the top description and change “Matching developers with great companie
 
 ### Code
 
+```
      document.querySelector(".logo").src
+```
 
 ### Output
 
